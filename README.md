@@ -4,7 +4,6 @@
 
 > A spike-inspired, low-power Brain-Computer Interface (BCI) system that detects motor intent from EEG signals using a Leaky Integrate-and-Fire (LIF) Spiking Neural Network — designed to assist stroke patients in controlling assistive devices.
 
----
 
 ## Problem Statement
 
@@ -138,7 +137,7 @@ Open `http://localhost:5000` in your browser. Use `/predict/<sample_id>` endpoin
 
 ---
 
-## 📊 Demo Results
+## Demo Results
 
 | Sample | Detected Intent | Latency (ms) | Spike Sparsity |
 |--------|----------------|-------------|----------------|
