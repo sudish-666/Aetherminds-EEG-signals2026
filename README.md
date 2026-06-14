@@ -2,14 +2,12 @@
 
 **NeuroNex'26 Hackathon Project**
 
-> A spike-inspired, low-power Brain-Computer Interface (BCI) system that detects motor intent from EEG signals using a Leaky Integrate-and-Fire (LIF) Spiking Neural Network — designed to assist stroke patients in controlling assistive devices.
+A spike-inspired, low-power Brain-Computer Interface (BCI) system that detects motor intent from EEG signals using a Leaky Integrate-and-Fire (LIF) Spiking Neural Network — designed to assist stroke patients in controlling assistive devices.
 
 
 ## Problem Statement
 
 Stroke patients often lose voluntary motor control. Traditional EEG-based BCI systems are computationally expensive and impractical for real-time, low-power deployment. This project applies **neuromorphic computing principles** — mimicking how biological neurons communicate via sparse spikes — to build an efficient, low-power motor intent classifier directly from EEG signals.
-
----
 
 ## How It Works
 
@@ -92,7 +90,7 @@ pip install -r requirements.txt
 
 ## Running the Project
 
-> **Important:** Run in this order — SNN.py must run first to generate the trained model and data files.
+**Important:** Run in this order — SNN.py must run first to generate the trained model and data files.
 
 ### Step 1 — Train the SNN Model
 
@@ -135,8 +133,6 @@ python app.py
 
 Open `http://localhost:5000` in your browser. Use `/predict/<sample_id>` endpoint to get real-time motor intent predictions.
 
----
-
 ## Demo Results
 
 | Sample | Detected Intent | Latency (ms) | Spike Sparsity |
@@ -148,8 +144,6 @@ Open `http://localhost:5000` in your browser. Use `/predict/<sample_id>` endpoin
 | 5 | RIGHT HAND | 1088.613 | 50.6% |
 
 **Average Spike Sparsity ~57%** — meaning ~57% of neurons remain inactive per inference, significantly reducing dynamic power consumption compared to conventional dense neural networks.
-
----
 
 ## Tech Stack
 
@@ -163,7 +157,6 @@ Open `http://localhost:5000` in your browser. Use `/predict/<sample_id>` endpoin
 | Visualization | matplotlib |
 | Data Processing | NumPy · SciPy · pandas |
 
----
 
 ## Key Features
 
@@ -173,16 +166,13 @@ Open `http://localhost:5000` in your browser. Use `/predict/<sample_id>` endpoin
 - **No GPU required** — LIF encoding + Random Forest runs entirely on CPU
 - **Web API included** — Flask backend serves live predictions via REST endpoint
 
----
 
 ## Real-World Impact
 
 Designed for stroke rehabilitation: the system detects imagined hand movements from scalp EEG and can trigger prosthetic limbs, robotic exoskeletons, or smart wheelchairs — giving stroke patients greater autonomy without invasive brain surgery.
 
----
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
----
