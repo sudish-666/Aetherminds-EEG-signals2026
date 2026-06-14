@@ -53,7 +53,8 @@ Aetherminds-EEG-signals2026/
 ├── templates/
 │   └── index.html      # Web dashboard frontend
 ├── requirements.txt    # Python dependencies
-└── LICENSE             # MIT License
+├── LICENSE             # MIT License
+└── results_visualization.png 
 ```
 
 
@@ -172,4 +173,8 @@ Designed for stroke rehabilitation: the system detects imagined hand movements f
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Results
+
+![EEG Spike Analysis](results_visualization.png)
 
