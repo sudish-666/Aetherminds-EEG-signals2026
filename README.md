@@ -1,4 +1,4 @@
-# 🧠 Aetherminds — Neuromorphic Motor Intent Detection
+# Aetherminds — Neuromorphic Motor Intent Detection
 
 **NeuroNex'26 Hackathon Project**
 
@@ -6,13 +6,13 @@
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Stroke patients often lose voluntary motor control. Traditional EEG-based BCI systems are computationally expensive and impractical for real-time, low-power deployment. This project applies **neuromorphic computing principles** — mimicking how biological neurons communicate via sparse spikes — to build an efficient, low-power motor intent classifier directly from EEG signals.
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```
 Raw EEG Data (MNE PhysioNet EEGBCI)
@@ -46,7 +46,7 @@ High sparsity → most synapses stay quiescent → lower dynamic power vs dense 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Aetherminds-EEG-signals2026/
@@ -62,7 +62,7 @@ Aetherminds-EEG-signals2026/
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Project
+## Running the Project
 
 > **Important:** Run in this order — SNN.py must run first to generate the trained model and data files.
 
@@ -152,7 +152,7 @@ Open `http://localhost:5000` in your browser. Use `/predict/<sample_id>` endpoin
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -166,7 +166,7 @@ Open `http://localhost:5000` in your browser. Use `/predict/<sample_id>` endpoin
 
 ---
 
-## 💡 Key Features
+## Key Features
 
 - **Neuromorphic spike encoding** — maps raw EEG amplitude changes to binary spike events, mimicking biological neural communication
 - **High sparsity inference** (~50–62%) — enables potential deployment on neuromorphic hardware such as Intel Loihi or IBM TrueNorth
@@ -176,20 +176,14 @@ Open `http://localhost:5000` in your browser. Use `/predict/<sample_id>` endpoin
 
 ---
 
-## 🏥 Real-World Impact
+## Real-World Impact
 
 Designed for stroke rehabilitation: the system detects imagined hand movements from scalp EEG and can trigger prosthetic limbs, robotic exoskeletons, or smart wheelchairs — giving stroke patients greater autonomy without invasive brain surgery.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-## 👤 Author
-
-**Sudish Agarwal**
-GitHub: [@sudish-666](https://github.com/sudish-666)
-Project: [Aetherminds-EEG-signals2026](https://github.com/sudish-666/Aetherminds-EEG-signals2026)
