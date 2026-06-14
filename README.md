@@ -41,7 +41,6 @@ Sparsity = 1 - (#spikes / #total slots)
 ```
 High sparsity → most synapses stay quiescent → lower dynamic power vs dense neural networks.
 
----
 
 ## Project Structure
 
@@ -57,7 +56,6 @@ Aetherminds-EEG-signals2026/
 └── LICENSE             # MIT License
 ```
 
----
 
 ## Setup & Installation
 
@@ -86,7 +84,6 @@ source venv/bin/activate        # Linux/Mac
 pip install -r requirements.txt
 ```
 
----
 
 ## Running the Project
 
